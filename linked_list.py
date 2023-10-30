@@ -13,8 +13,8 @@ class Node:
     >>> n = Node(7, None)
     >>> n.data
     7
-    >>> n.next
-    None
+    >>> n.next == None
+    True
     >>> m = Node(13, n)
     >>> m.data
     13
